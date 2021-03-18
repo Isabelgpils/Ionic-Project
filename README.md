@@ -1,4 +1,4 @@
 # Ionic-Project
 Ionic CSS challenge. 
-![full screen]("https://github.com/Isabelgpils/Ionic-Project/blob/main/fullScreen.png")
+![full screen]( /relative/path/to/fullScreen.png?raw=true "Poject rendered on a full screen")
 
