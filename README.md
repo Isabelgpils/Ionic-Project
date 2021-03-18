@@ -2,7 +2,7 @@
 
 
 ### LARGE SCREEN
-![full screen](/blob/main/fullScreen.png)
+![full screen](/fullScreen.png)
 
 
 
