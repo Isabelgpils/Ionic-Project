@@ -2,7 +2,7 @@
 
 
 ### LARGE SCREEN
-![full screen](/Ionic-Project/blob/main/fullScreen.png)
+![full screen](/main/fullScreen.png)
 
 
 
