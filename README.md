@@ -2,7 +2,7 @@
 
 
 ### LARGE SCREEN
-![full screen](/fullScreen.png)
+![full screen](/computerScreen.png)
 
 
 
