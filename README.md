@@ -1,7 +1,7 @@
 # Ionic-Project
 
 
-### LARGE SCREEN
+### LARGE SCREEN SIZE
 ![full screen](/computerScreen.png)
 
 
