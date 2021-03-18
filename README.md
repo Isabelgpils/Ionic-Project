@@ -1,4 +1,4 @@
 # Ionic-Project
 Ionic CSS challenge. 
-![Alt text]("fullScreen.png")
+![full screen]("https://github.com/Isabelgpils/Ionic-Project/blob/main/fullScreen.png")
 
