@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+:root {
+    --buff:  #F9FAFD;
+    --orange: #FD815A;
+    --white: #FFFFFF;
+    --Grey1: #7B8798;
+    --Grey2: #535C68;
+    --Grey3: #2B2F35;
+    --blue: #4965CB;
+    --black: #000000;
+    --cream: #E5ECFF;
+  }
+  
+html, body{
+    margin: 0;
+    max-width: 1400px;
+    height: 1304px;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background: var(--buff); 
+}
+.container-column-1{
+    width: 56%;
+    margin-left: 3%;
+}
+.container-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 97%;
+    margin-top: 3%;
+}
+.container-masthead{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: left;
+    margin: 10% 5%;
+    width: 100%;
+}
+
+.container-col-2 {
+    width: 50%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container-main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 0 0 0; 
+}
+.container-article{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5% 1% 0 5%;
+}
+.article-col-1, .article-col-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.article-col-2{
+    margin-right: 1%;
+}
+.article-flex{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/*----- NAVIGATION----------------*/
+
+.logo{
+    width: 2.5rem;
+    height: 2rem;
+    margin-left: -5%;
+}
+.link{
+    justify-content: flex-start;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-decoration: none;
+    color: var(--grey);  
+}
+
+.link:hover, .link:focus{
+    padding: .3em;
+    border-radius: 10%;
+    background-color:  var(--orange);
+    color: var(--white);
+}
+.sign, .download{
+    text-decoration: none;
+    top: 3%;
+    display: inline;
+    color: var(--white);
+}
+.sign{
+    position: absolute;
+    right: 30px; 
+
+}
+.download{
+    position: absolute;
+    right: 120px; 
+  
+}
+.sign:hover, .download:hover, .sign:focus, .download:focus{ 
+    padding: 1rem;
+    border-radius: 10%;
+    background-color: var(--orange);
+    color: var(--black);
+    }
+.image-header{
+    width: 100%;
+}
+/*------ MASTHEAD---------------------- */
+.heading {
+    color:var(--grey3);
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    text-align: left; 
+}
+.heading .heading-orange{
+    color: var(--orange);
+    display: block;
+}
+.text-masthead{  
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    width: 65%; 
+    color: var(--grey2);
+    margin: 0 0 3% 0;
+}
+
+/*--- BUTTONS------------------------------ */
+.container-button{
+    text-align: left;
+    margin: 0; 
+}
+.button{
+    padding: 1em;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+}
+.orange{
+    width: 152px;
+    background:var(--orange);
+    color:var(--cream);
+    margin-bottom: 0;
+}
+.orange:hover, .orange:focus{
+    width: 152px;
+    color: var(--cream);
+    background: var(--blue)
+}
+.grey{
+    width: 148px;
+    color: var(--blue);
+    background:var(--cream);
+  
+}
+.grey:hover, .grey:focus{
+    color:var(--cream);
+    background:var(--blue);
+}
+
+/*-------- MAIN----------------- */
+.title-main, .text-main {
+    text-align: center;
+}
+.subtitle-main{
+    width: 112px;
+    height: .75rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color:var(--grey1);
+    margin: 0;
+    
+}
+.title-main{
+    margin: 1% 0;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height:2.5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color:var(--grey3);
+}
+.text-main{
+    margin: 0 55%;
+    width: 40%;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: var(--grey2);   
+}
+
+/*-----ARTICLES------------------ */
+.title-article{
+    margin:  0 0 2% 3%;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--grey3);
+}
+.text-article{
+    margin: 0 0 5% 3%;
+    width: 80%;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color:var(--grey2);
+}
+
+@media(max-width: 950px){
+    .container-nav{
+        width: 100%;
+    }
+    .icon{
+        width: 80%;
+        height: 80%;
+        justify-content: center;
+        margin: auto;
+    }
+    .container-header, .article-flex, .container-article{
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        width: 100%;
+    }
+    .container-column-1, .container-column2, .container-masthead, .image-header, .article-col-1, .article-col-2{
+        width: 100%;
+        margin: 1%;
+        align-items: center;
+    }
+    .container-button{
+        margin-bottom: 10%;
+    }
+    .container-masthead{
+        order: 2;
+    }
+    .container-column2{
+        order: 1;
+    } 
+    .text-main{
+        margin: 1% 5% 3%;
+        width: 90%;
+    }
+    .link, .sign, .download{
+        margin-right: 5%;
+    }
+}
+@media(max-width: 600px){
+    .heading, .heading-orange{
+        font-size: 2rem;
+    }
+    .title-main{
+        font-size: 1.3rem;
+        line-height:2.5rem;
+    } 
+    .title-article{
+        font-size: 1rem;
+    }
+     .grey{
+         width: 100px;
+         padding: .5em;
+    }
+     .orange{
+         width: 100px;
+         padding: .5em;
+     }
+     .text-article{
+        font-size: .8rem;
+    }
+    .text-masthead{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .logo{
+        width: 2rem;
+        height: 1.5rem;
+        margin-left: 1%;
+    }
+}
